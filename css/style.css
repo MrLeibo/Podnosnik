@@ -214,9 +214,9 @@ body {
 
 #table{
     text-align: center;
-    width: 400px; 
-    justify-content: center; 
-
+    width: 60%;
+    table-layout: fixed;
+    margin: 0 auto;
    
 }
 
