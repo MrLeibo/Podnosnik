@@ -114,3 +114,122 @@ body {
     background-color: #FFF;
     color: #c0c0c0;
 }
+
+#portfolio {
+    text-align: center;
+    background-color: #f7f7f7;
+    height: 100%;
+    padding: 30px;
+}
+
+#items-photos1 {
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    background-image:  url('../img/obrazek2.jpg');
+}
+
+#items-photos2 {
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    background-image: url('../img/obrazek2.jpg');
+
+}
+
+#items-photos3 {
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    background-image: url('../img/obrazek2.jpg');
+}
+
+#items-photos4 {
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    background-image: url('../img/obrazek2.jpg');
+}
+
+#items-photos5 {
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    background-image: url('../img/obrazek2.jpg');
+
+}
+
+.overflow {
+    height: 350px;
+    overflow: hidden;
+}
+
+#port {
+    padding: 20px;
+}
+
+#items-photos6 {
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    background-image: url('../img/obrazek2.jpg');
+}
+
+.items-des {
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.mask {
+    height: 100%;
+    /*width: 100%;*/
+    opacity: 0;
+    background-color: rgba(192,192,192,0.5);
+    transition: all 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mask:hover {
+    opacity: 1;
+}
+
+.items-p {
+    transition: all 0.4s;
+}
+
+.items-p:hover {
+    transform: scale(1.5);
+}
+
+
+.cennik {
+ text-align: center; 
+    background-color: #f7f7f7;
+    height: 100%;
+    padding: 30px;
+}
+
+#table{
+    text-align: center;
+    width: 400px; 
+    justify-content: center; 
+
+   
+}
+
+#opis-text {
+ text-align: center; 
+    background-color: #f7f7f7;
+    width: 100%;
+    padding: 30px;
+}
+
+#photoOpis {
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-image: url('../img/obrazek3.jpg');
+}
